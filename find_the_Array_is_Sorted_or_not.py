@@ -2,7 +2,7 @@ def sortArray(arr, n):
 
     for i in range(n-1):
         if arr[i] <= arr[i+1]:
-            return True
+            continue
         else:
              return False
     return True
