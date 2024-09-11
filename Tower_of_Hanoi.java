@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 class Tower_of_Hanoi
 {
     public static void TOH(int n, char A, char B, char C)
@@ -16,7 +16,8 @@ class Tower_of_Hanoi
 
     public static void main(String[] args)
     {
-        int n = 3;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         char A = 'A';
         char B = 'B';
         char C = 'C';
